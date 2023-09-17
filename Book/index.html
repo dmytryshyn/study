@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Patterns of Enterprise Application Architecture</title>
+    </head>
+    <body>
+        <!-- <nav>
+            <a href="test.html">test page</a>
+        </nav> -->
+        <h1>Contents</h1>
+        <!--COMMON-->
+        <ul>
+            <li>
+              <a href="Preface.html"><h3>Preface</h3></a>
+              <ul>
+                <li>
+                    <a href="Preface.html#who-this-book-is-for"><h4>Who This Book Is For</h4></a>
+                </li>
+                <li>
+                    <a href="Preface.html#acknowledgments"><h4>Acknowledgments</h4></a>
+                </li>
+                <li>
+                    <a href="Preface.html#colophon"><h4>Colophon</h4></a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="Introduction.html"><h3>Introduction</h3></a>
+              <ul>
+                <li>
+                    <a href="Introduction.html#architecture"><h4>Architecture</h4></a>
+                </li>
+                <li>
+                    <a href="Introduction.html#enterprise-applications"><h4>Enterprise Applications</h4></a>
+                </li>
+                <li>
+                    <a href="Introduction.html#kinds-of-enterprise-application"><h4>Kinds of Enterprise Application</h4></a>
+                </li>
+                <li>
+                    <a href="Introduction.html#thinking-about-performance"><h4>Thinking About Performance</h4></a>
+                </li>
+                <li>
+                    <a href="Introduction.html#patterns"><h4>Patterns</h4></a>
+                </li>
+                    <ul>
+                        <li>
+                            <a href="Introduction.html#the-structure-of-the-patterns"><h4>The Structure of the Patterns</h4></a>
+                        </li>
+                        <li>
+                            <a href="Introduction.html#limitations-of-these-patterns"><h4>Limitations of These Patterns</h4></a>
+                        </li>    
+                    </ul>
+              </ul>
+            </li>
+            <!--PART1-->               
+            <li>
+              <a href="./Part1/Part1.html"><h3>PART 1: The Narratives</h3></a>
+                <ul>
+                    <a href="./Part1/Chapter1.html"><li><h4>Chapter 1: Layering<h4></li></a>
+                        <ul>
+                            <li>
+                                <a href="./Part1/Chapter1.html#the-evolution-of-layers-in-enterprise-applications"><h4>The Evolution of Layers in Enterprise Applications</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter1.html#the-three-principal-layers"><h4>The Three Principal Layers</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter1.html#choosing-where-to-run-your-layers"><h4>Choosing Where to Run Your Layers</h4></a>
+                            </li>     
+                        </ul>
+                    <a href="./Part1/Chapter2.html"><li><h4>Chapter 2: Organizing Domain Logic</h4></li></a>
+                        <ul>
+                            <li>
+                                <a href="./Part1/Chapter2.html#making-a-choice"><h4>Making a Choice</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter2.html#service-layer"><h4>Service Layer</h4></a>
+                            </li>  
+                        </ul>
+                    <a href="./Part1/Chapter3.html"><li><h4>Chapter 3: Mapping to Relational Databases</h4></li></a>
+                        <ul>
+                            <li>
+                                <a href="./Part1/Chapter3.html#architectural-patterns"><h4>Architectural Patterns</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter3.html#the-behavioral-problem"><h4>The Behavioral Problem</h4></a>
+                            </li>  
+                            <li>
+                                <a href="./Part1/Chapter3.html#reading-in-data"><h4>Reading in Data</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter3.html#structural-mapping-patterns"><h4>Structural Mapping Patterns</h4></a>
+                                    <ul>
+                                        <li>
+                                            <a href="./Part1/Chapter3.html#mapping-relationships"><h4>Mapping Relationships</h4></a>
+                                        </li>
+                                        <li>
+                                            <a href="./Part1/Chapter3.html#inheritance"><h4>Inheritance</h4></a>
+                                        </li>
+                                    </ul>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter3.html#building-the-mapping"><h4>Building the Mapping</h4></a>
+                                <ul>
+                                    <li>
+                                        <a href="./Part1/Chapter3.html#double-mapping"><h4>Double Mapping</h4></a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter3.html#using-metadata"><h4>Using Metadata</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter3.html#database-connections"><h4>Database Connections</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter3.html#some-miscellaneous-points"><h4>Some Miscellaneous Points</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter3.html#further-reading"><h4>Further Reading</h4></a>
+                            </li>
+                        </ul>
+                    <a href="./Part1/Chapter4.html"><li><h4>Chapter 4: Web Presentation</h4></li></a>
+                        <ul>
+                            <li>
+                                <a href="./Part1/Chapter4.html#view-patterns"><h4>View Patterns</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter4.html#input-controller-patterns"><h4>Input Controller Patterns</h4></a>
+                            </li>
+                            <li>
+                                <a href="./Part1/Chapter4.html#further-reading"><h4>Further Reading</h4></a>
+                            </li>     
+                        </ul>
+                    <a href="./Part1/Chapter5.html"><li><h4>Chapter 5: Concurrency</h4></li></a>
+                    <ul>
+                        <li>
+                            <a href="./Part1/Chapter5.html#concurrency-problems"><h4>Concurrency Problems</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter5.html#execution-contexts"><h4>Execution Contexts</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter5.html#isolation-and-immutability"><h4>Isolation and Immutability</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter5.html#optimistic-and-pessimistic-concurrency-control"><h4>Optimistic and Pessimistic Concurrency Control</h4></a>
+                            <ul>
+                                <li>
+                                    <a href="./Part1/Chapter5.html#preventing-inconsistent-reads"><h4>Preventing Inconsistent Reads</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter5.html#deadlocks"><h4>Deadlocks</h4></a>
+                                </li>
+                            </ul>
+                        </li>   
+                        <li>
+                            <a href="./Part1/Chapter5.html#transactions"><h4>Transactions</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter5.html#acid"><h4>ACID</h4></a>
+                            <ul>
+                                <li>
+                                    <a href="./Part1/Chapter5.html#transactional-resources"><h4>Transactional Resources</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter5.html#reducing-transaction-isolation-for-liveness"><h4>Reducing Transaction Isolation for Liveness</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter5.html#business-and-system-transactions"><h4>Business and System Transactions</h4></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter5.html#patterns-for-offline-concurrency-control"><h4>Patterns for Offline Concurrency Control</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter5.html#application-server-concurrency"><h4>Application Server Concurrency</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter5.html#further-reading"><h4>Further Reading</h4></a>
+                        </li>  
+                    </ul>
+                    <a href="./Part1/Chapter6.html"><li><h4>Chapter 6: Session State</h4></li></a>
+                    <ul>
+                        <li>
+                            <a href="./Part1/Chapter6.html#the-value-of-statelessness"><h4>The Value of Statelessness</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter6.html#session-state"><h4>Session State</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter6.html#ways-to-store-session-state"><h4>Ways to Store Session State</h4></a>
+                        </li>     
+                    </ul>
+                    <a href="./Part1/Chapter7.html"><li><h4>Chapter 7: Distribution Strategies</h4></li></a>
+                    <ul>
+                        <li>
+                            <a href="./Part1/Chapter7.html#the-allure-of-distributed-objects"><h4>The Allure of Distributed Objects</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter7.html#remote-and-local-interfaces"><h4>Remote and Local Interfaces</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter7.html#where-you-have-to-distribute"><h4>Where You Have to Distribute</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter7.html#working-with-the-distribution-boundary"><h4>Working with the Distribution Boundary</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter7.html#interfaces-for-distribution"><h4>Interfaces for Distribution</h4></a>
+                        </li>     
+                    </ul>
+                    <a href="./Part1/Chapter8.html"><li><h4>Chapter 8: Putting It All Together</h4></li></a>
+                    <ul>
+                        <li>
+                            <a href="./Part1/Chapter8.html#starting-with-the-domain-layer"><h4>Starting with the Domain Layer</h4></a>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter8.html#down-to-the-data-source-layer"><h4>Down to the Data Source Layer</h4></a>
+                            <ul>
+                                <li>
+                                    <a href="./Part1/Chapter8.html#data-source-for-transaction-script"><h4>Data Source for Transaction Script (110)</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter8.html#data-source-table-module"><h4>Data Source Table Module (125)</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter8.html#data-source-for-domain-model"><h4>Data Source for Domain Model (116)</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter8.html#the-presentation-layer"><h4>The Presentation Layer</h4></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter8.html#some-technology-specific-advice"><h4>Some Technology-Specific Advice</h4></a>
+                            <ul>
+                                <li>
+                                    <a href="./Part1/Chapter8.html#java-and-J2EE"><h4>Java and J2EE</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter8.html#dot-net"><h4>.NET</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter8.html#stored-procedures"><h4>Stored Procedures</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part1/Chapter8.html#web-services"><h4>Web Services</h4></a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="./Part1/Chapter8.html#other-layering-schemes"><h4>Other Layering Schemes</h4></a>
+                        </li>    
+                    </ul>
+                </ul>
+            </li>
+            <!--PART2-->
+            <li>
+                <a href="./Part2/Part2.html"><h3>PART 2: The Patterns</h3></a>
+                  <ul>
+                      <a href="./Part2/Chapter9.html"><li><h4>Chapter 9: Domain Logic Patterns<h4></li></a>
+                        <ul>
+                            <li>
+                                <a href="./Part2/Chapter9.html#transaction-script"><h4>Transaction Script</h4></a>
+                            </li>
+                            <ul>
+                                <li>
+                                    <a href="./Part2/Chapter9.html#how-it-works"><h4>How It Works</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part2/Chapter9.html#when-to-use-it"><h4>When to Use It</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part2/Chapter9.html#the-revenue-recognition-problem"><h4>The Revenue Recognition Problem</h4></a>
+                                </li>
+                                <li>
+                                    <a href="./Part2/Chapter9.html#example-revenue-recognition"><h4>Example: Revenue Recognition</h4></a>
+                                </li>
+                            </ul>     
+                        </ul>
+                      <a href="./Part2/Chapter10.html"><li><h4>Chapter 10: Data Source Architectural Patterns</li></a>
+                      <a href="./Part2/Chapter11.html"><li><h4>Chapter 11: Object-Relational Behavioral Patterns</li></a>
+                      <a href="./Part2/Chapter12.html"><li><h4>Chapter 12: Object-Relational Structural Patterns</li></a>
+                      <a href="./Part2/Chapter13.html"><li><h4>Chapter 13: Object-Relational Metadata Mapping Patterns</li></a>
+                      <a href="./Part2/Chapter14.html"><li><h4>Chapter 14: Web Presentation Patterns</li></a>
+                      <a href="./Part2/Chapter15.html"><li><h4>Chapter 15: Distribution Patterns</li></a>
+                      <a href="./Part2/Chapter16.html"><li><h4>Chapter 16: Offline Concurrency Patterns</li></a>
+                      <a href="./Part2/Chapter17.html"><li><h4>Chapter 17: Session State Patterns</li></a>
+                      <a href="./Part2/Chapter18.html"><li><h4>Chapter 18: Base Patterns</li></a>
+                  </ul>
+              </li>
+        </ul>
+    </body>
+</html>
